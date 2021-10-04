@@ -1,0 +1,119 @@
+/* 	Joshua Linton - 3174195
+	GDES3091 - Assignment 1
+	OCADU - Professor Ali Qadeer
+	20210918 
+*/
+
+.letter{
+
+	position: relative;
+	width:  240px;
+	height:  320px;
+	border:  1px solid red;
+	display:  inline-block;
+}
+
+.t-stem{
+
+	width:  32px;
+	height: 280px;
+	background:  black;
+	position:  absolute;
+	left:  120px;
+	top: 40px;
+}
+
+.t-head{
+
+	width:  240px;
+	height: 32px;
+	background:  black;
+	position:  absolute;
+	left:  0px;
+	top:  40px;
+	transform:  rotate(-15deg);
+}
+
+.i-stem{
+
+	width:  32px;
+	height: 240px;
+	background:  black;
+	position:  absolute;
+	left:  120px;
+	top: 32px;
+}
+
+.i-head{
+
+	width:  160px;
+	height: 32px;
+	background:  black;
+	position:  absolute;
+	left:  40px;
+	top:  32px;
+	transform:  rotate(-15deg);
+}
+
+.i-foot{
+
+	width:  160px;
+	height: 32px;
+	background:  black;
+	position:  absolute;
+	left:  40px;
+	top:  264px;
+	transform:  rotate(-15deg);
+}
+
+.l-stem{
+
+	width:  32px;
+	height: 270px;
+	background:  black;
+	position:  absolute;
+	left:  20px;
+	top: 30px;
+}
+
+.l-foot{
+
+	width:  160px;
+	height: 32px;
+	background:  black;
+	position:  absolute;
+	left:  20px;
+	top:  270px;
+	transform:  skewY(-10deg);
+}
+
+.o-outter {
+	height: 290px;
+	width: 200px;
+	background: black;
+	position: absolute;
+	left:  20px;
+	top: 30px;
+	border-radius: 240px;
+}
+
+.o-counter {
+	height: 240px;
+	width: 120px;
+	background: white;
+	position: absolute;
+	left:  40px;
+	top: 60px;
+	border-radius: 240px;
+	transform:  skewY(20deg);
+}
+
+.c-counter {
+	height: 90px;
+	width: 80px;
+	background: white;
+	position: absolute;
+	left:  150px;
+	top: 160px;
+	transform:  skewY(15deg);
+}

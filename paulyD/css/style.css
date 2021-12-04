@@ -1,0 +1,147 @@
+
+.page{
+	background-image: linear-gradient(black, grey);
+}
+
+
+/*.accordionButton{
+	display: block;
+	width: 90%;
+	padding: 16px;
+	border:  none;
+	outline:  none;
+	cursor:  pointer;
+	background: grey;
+	color: dimgrey;
+	align-content: center;
+	transition:  0.2s;
+}
+
+.accordionButton::after{
+	content: '\25be';
+	float: right;
+	transform: scale(1.5);
+}
+
+.accordionButton--active{
+	background: red;
+}
+
+.accordionButton--active::after{
+	content:  '\25b4';
+}
+
+.accordionContent{
+	overflow:  hidden;
+	max-height: 0;
+	transition:  max-height;
+}
+*/
+
+.banner {
+	width: 1200px; 
+	padding: 32px;
+}
+
+.profile {
+
+}
+
+.profilePic {
+	border: 1; 
+	width: 160; 
+	height: 207;
+}
+
+.busyCard {
+	width:  40px;
+	height: 40px;
+	align-self: middle; 
+	vertical-align: top;
+}
+
+/*EVENTS CSS*//*EVENTS CSS*//*EVENTS CSS*//*EVENTS CSS*//*EVENTS CSS*/
+/*EVENTS CSS*//*EVENTS CSS*//*EVENTS CSS*//*EVENTS CSS*//*EVENTS CSS*/
+/*EVENTS CSS*//*EVENTS CSS*//*EVENTS CSS*//*EVENTS CSS*//*EVENTS CSS*/
+
+.EventsTable {
+	width:  10px;
+	height: 40px;
+	align-self: left; 
+	vertical-align: top; 
+	background-color: darkblue;
+}
+
+.Events {
+	border-spacing: 10px;
+	padding: 20px;
+}
+
+.eventYear {
+	vertical-align: top;
+	font-size: 14px; 
+	font: Helvetica, Ariel;
+}
+
+.eventInfo {
+	vertical-align: top;
+	font-size: 11px; 
+	font: Helvetica, Ariel;
+}
+
+
+
+/*PORTFOLIO CSS*//*PORTFOLIO CSS*//*PORTFOLIO CSS*//*PORTFOLIO CSS*/
+/*PORTFOLIO CSS*//*PORTFOLIO CSS*//*PORTFOLIO CSS*//*PORTFOLIO CSS*/
+/*PORTFOLIO CSS*//*PORTFOLIO CSS*//*PORTFOLIO CSS*//*PORTFOLIO CSS*/
+
+#portfolio {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+.cell {
+	text-align: left;
+	justify-content: center;
+	height: 256px;
+	width: 200px;
+	padding-bottom: 32px;
+}
+
+/*all images have been doubled in dimension from their orginal posting*/
+
+/*uncommon dimension shift*/
+.img4 {
+	width: 128;
+	height: 128; 
+	border: 1;
+}
+
+
+/*SIGGRAPH 98-2000*/
+.img3 {
+	width: 144; 
+	height: 144; 
+	border: 1;
+}
+
+/*common dimension shift*/
+.img2 {
+	width: 192; 
+	height: 144; 
+	border: 1;
+}
+
+/*High Dynamic Range Imaging: Acquisition, Display, and Image-Based Lighting, 2ed.*/
+.img1 {
+	width: 200; 
+	height: 246; 
+	border: 1;
+}
+
+/*common*/
+.img {
+	width: 200; 
+	height: 150; 
+	border: 1;
+}

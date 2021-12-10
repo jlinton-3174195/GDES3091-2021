@@ -203,3 +203,17 @@
 	border: 2px solid green;
 	padding: 20px;
 }
+
+/*NEWS CSS*//*NEWS CSS*//*NEWS CSS*//*NEWS CSS*//*NEWS CSS*/
+/*NEWS CSS*//*NEWS CSS*//*NEWS CSS*//*NEWS CSS*//*NEWS CSS*/
+/*NEWS CSS*//*NEWS CSS*//*NEWS CSS*//*NEWS CSS*//*NEWS CSS*/
+
+#news {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.clip {
+	width: 256px;
+	border: 2px solid green;
+}

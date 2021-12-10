@@ -1,0 +1,19 @@
+*{
+	background-color: black;
+}
+
+#header{
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr
+}
+
+h2{
+	color: white;
+	font-size: 20px;
+}
+
+.instruct{
+	color: white;
+	font-size: 12px;
+	padding-top: 8px;
+}

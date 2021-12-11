@@ -1,4 +1,4 @@
-//mouseTrap
+//mondrianBrush
 //Joshua Linton - 3174195
 //GDES3091 - Professor Qadeer
 //OCADU - FALL2021
@@ -11,9 +11,11 @@ function setup(){
 }
 
 function draw(){
-		rect(mouseX, mouseY, mouseX - pmouseX, mouseX - pmouseY);
-		fill('lightgreen');
-		stroke('darkblue');
+	five = ['red', 'blue', 'yellow', 'black', 'white'];
+	mondrain = random(five);
+		rect(mouseX, mouseY, mouseX - pmouseX, mouseY - pmouseY);
+		fill(mondrain);
+		stroke('black');
 }
 
 function mousePressed(){

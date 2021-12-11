@@ -1,4 +1,4 @@
-//mouseTrap
+//stereoDrain
 //Joshua Linton - 3174195
 //GDES3091 - Professor Qadeer
 //OCADU - FALL2021
@@ -11,9 +11,11 @@ function setup(){
 }
 
 function draw(){
+	five = ['red', 'blue', 'yellow', 'black', 'white'];
+	mondrain = random(five);
 		rect(mouseX, mouseY, mouseX - pmouseX, mouseX - pmouseY);
-		fill('lightgreen');
-		stroke('darkblue');
+		fill(mondrain);
+		stroke('black');
 }
 
 function mousePressed(){
